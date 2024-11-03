@@ -41,7 +41,7 @@ export default function Hero() {
                   >
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#2eced3_0%,#d8e5ef_50%,#2eced3_100%)]" />
                     <div className="w-full h-full bg-gradient-to-b from-[#00e5ff] to-[#0080ff] rounded-full backdrop-blur-3xl overflow-hidden">
-                      <img src="/images/AvatarMaker.png" className="w-full h-full object-cover" />
+                      <img src="/assets/images/profile.JPG" className="w-full h-full object-cover" />
                     </div>
                   </motion.div>
                 </div>
