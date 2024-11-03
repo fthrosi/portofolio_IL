@@ -1,0 +1,127 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
+    }
+}
+  
+.fade-in-up {
+  animation: fadeInUp 1s ease-out;
+  animation-delay: 500ms;
+  opacity: 0; /* Awalnya tersembunyi */
+  visibility: hidden; /* Menghindari elemen dari layout */
+  animation-fill-mode: forwards; 
+}
+@keyframes fadeInUpBtn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.fade-in-up-btn {
+  animation: fadeInUpBtn 1s ease-out;
+  opacity: 0; /* Awalnya tersembunyi */
+  visibility: hidden; /* Menghindari elemen dari layout */
+  animation-fill-mode: forwards; 
+  animation-delay: 1s;
+}
+@keyframes fadeInUpAvatar {
+  from {
+    opacity: 0;
+    transform: translatey(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
+.fade-in-up-avatar {
+  animation: fadeInUpAvatar 1s ease-out;
+}
+@keyframes fadeInUpC1 {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.fade-in-up-c1 {
+  animation: fadeInUpC1 1s ease-out;
+  opacity: 0; /* Awalnya tersembunyi */
+  visibility: hidden; /* Menghindari elemen dari layout */
+  animation-fill-mode: forwards; 
+  animation-delay: 1.5s;
+}
+@keyframes fadeInUpC2 {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.fade-in-up-c2 {
+  animation: fadeInUpC2 1s ease-out;
+  opacity: 0; /* Awalnya tersembunyi */
+  visibility: hidden; /* Menghindari elemen dari layout */
+  animation-fill-mode: forwards; 
+  animation-delay: 2s;
+}
+@keyframes fadeInUpC3 {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.fade-in-up-c3 {
+  animation: fadeInUpC3 1s ease-out;
+  opacity: 0; /* Awalnya tersembunyi */
+  visibility: hidden; /* Menghindari elemen dari layout */
+  animation-fill-mode: forwards; 
+  animation-delay: 2.5s;
+}
+@keyframes fadeInUpC4 {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.fade-in-up-c4 {
+  animation: fadeInUpC4 1s ease-out;
+  opacity: 0; /* Awalnya tersembunyi */
+  visibility: hidden; /* Menghindari elemen dari layout */
+  animation-fill-mode: forwards; 
+  animation-delay: 3s;
+}
